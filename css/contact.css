@@ -1,12 +1,41 @@
-p---8 
+p----9
 
 
-.contact{
+/* PAGE BACKGROUND */
+
+body{
+background:#ebebeb;
+}
+
+
+/* CONTACT PAGE */
+
+.contact-page{
 max-width:900px;
 margin:80px auto;
 padding:20px;
 text-align:center;
 }
+
+
+/* INTRO */
+
+.contact-intro{
+margin-bottom:50px;
+}
+
+.contact-intro h1{
+font-size:28px;
+margin-bottom:10px;
+}
+
+.contact-intro p{
+color:#555;
+line-height:1.6;
+}
+
+
+/* GRID */
 
 .contact-grid{
 display:grid;
@@ -15,6 +44,9 @@ gap:35px;
 margin-top:40px;
 margin-bottom:50px;
 }
+
+
+/* CARDS */
 
 .contact-card{
 background:#ffffff;
@@ -27,31 +59,47 @@ transition:.35s;
 display:block;
 }
 
-.contact-card:hover{
-background:#2e6b46;
-color:white;
-transform:translateY(-6px);
-box-shadow:0 25px 60px rgba(0,0,0,0.25);
-}
 
-.contact-card:hover span{
-color:white;
-}
+/* ICON */
 
 .contact-icon{
 width:45px;
 margin-bottom:15px;
 }
 
+
+/* TEXT */
+
 .contact-card h3{
 margin:8px 0;
 font-size:20px;
+}
+
+.contact-card p{
+margin:4px 0;
 }
 
 .contact-card span{
 color:#666;
 font-size:14px;
 }
+
+
+/* HOVER */
+
+.contact-card:hover{
+background:#2e6b46;
+color:#fff;
+transform:translateY(-6px);
+box-shadow:0 25px 60px rgba(0,0,0,0.25);
+}
+
+.contact-card:hover span{
+color:#fff;
+}
+
+
+/* LOCATION */
 
 .location{
 margin-top:30px;
@@ -64,6 +112,7 @@ margin-bottom:8px;
 .location p{
 color:#555;
 }
+
 
 /* MOBILE */
 
