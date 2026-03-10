@@ -1,26 +1,15 @@
-p-----------10
-/* PAGE BACKGROUND */
-
-body{
-background:#ebebeb;
-}
-
-
+p----------11
 
 /* CONTACT PAGE */
 
 .contact-page{
 
 max-width:900px;
-
 margin:80px auto;
-
 padding:20px;
-
 text-align:center;
 
 }
-
 
 
 /* INTRO */
@@ -40,23 +29,18 @@ line-height:1.6;
 }
 
 
-
 /* GRID */
 
 .contact-grid{
 
 display:grid;
-
 grid-template-columns:repeat(2,1fr);
-
 gap:40px;
 
 margin-top:40px;
-
 margin-bottom:60px;
 
 }
-
 
 
 /* CARD */
@@ -78,11 +62,8 @@ box-shadow:0 12px 30px rgba(0,0,0,0.08);
 transition:all .35s ease;
 
 display:flex;
-
 flex-direction:column;
-
 align-items:center;
-
 justify-content:center;
 
 text-align:center;
@@ -92,17 +73,14 @@ min-height:180px;
 }
 
 
-
 /* ICON */
 
 .contact-icon{
 
 width:48px;
-
 margin-bottom:18px;
 
 }
-
 
 
 /* TEXT */
@@ -123,13 +101,11 @@ color:#777;
 }
 
 
-
 /* HOVER */
 
 .contact-card:hover{
 
 background:#2e6b46;
-
 color:#ffffff;
 
 transform:translateY(-6px) scale(1.03);
@@ -143,11 +119,10 @@ color:#ffffff;
 }
 
 
-
 /* LOCATION */
 
 .location{
-margin-top:10px;
+margin-top:20px;
 }
 
 .location h2{
@@ -162,44 +137,40 @@ font-size:17px;
 
 
 
-/* MOBILE */
+/* ============================= */
+/* MOBILE ONLY CHANGES */
+/* ============================= */
 
 @media(max-width:800px){
 
+/* reduce space below navbar */
+
 .contact-page{
-
-margin:120px auto 60px;
-
-padding:20px 35px;
-
+margin:30px auto 60px;
+padding:20px 30px;
 }
 
 
-
-/* STACK CONTACT BUTTONS */
+/* stack cards */
 
 .contact-grid{
-
 grid-template-columns:1fr;
-
 gap:25px;
-
 }
 
 
+/* card height smaller */
 
 .contact-card{
-
 min-height:160px;
-
-padding:30px 20px;
-
+padding:28px 20px;
 }
 
 
+/* location spacing */
 
 .location{
-margin-top:40px;
+margin-top:35px;
 }
 
 }
