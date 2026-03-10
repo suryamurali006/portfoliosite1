@@ -222,18 +222,65 @@ opacity:.7;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* MOBILE */
 
 @media(max-width:800px){
 
 .contact{
 padding:20px 40px;
-  margin-top:80px;
 margin-bottom:80px;
 }
 
 .contact-intro{
-margin-top:100px;
+margin-top:290px;
 margin-bottom:40px;
 }
 
