@@ -51,7 +51,15 @@ const CONFIG = {
     // Drag smoothness
     dragFriction: 0.5
 
+
+    // ===== BACKGROUND MUSIC =====
+
+musicFile: "music/1.mp3",
+
+musicVolume: 0.5,   // 0.0 to 1.0
+    
 };
+
 
 
 
