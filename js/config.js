@@ -1,4 +1,4 @@
-//Rev2
+//Rev3
 
 
 const CONFIG = {
@@ -25,6 +25,7 @@ popupDelay: 1000,
 dragFriction: 0.5
 
 };
+
 
 
 
