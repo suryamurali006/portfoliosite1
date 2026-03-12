@@ -1,5 +1,3 @@
-//Rev5
-
 // ==============================
 // 360 Viewer Configuration
 // ==============================
@@ -16,7 +14,7 @@ const CONFIG = {
 
     // Panorama image location
     // Path is relative to 360.html
-    panoramaImage: "images/1.jpg",
+    panoramaImage: "images/1.png",
 
 
     // ==========================
@@ -51,13 +49,4 @@ const CONFIG = {
     // Drag smoothness
     dragFriction: 0.5
 
-
-
-
-
-
-
-
-
-
-
+};
